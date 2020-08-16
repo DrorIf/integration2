@@ -1,0 +1,15 @@
+status,amount,rate
+FTD,1,4.545 %
+Appointment,2,9.091 %
+Callback,1,4.545 %
+Disqualified,1,4.545 %
+FollowUp,1,4.545 %
+INVALID,1,4.545 %
+NA,1,4.545 %
+NOTINTERESTED,1,4.545 %
+New,3,13.636 %
+NoAnswer,3,13.636 %
+Noanswer,2,9.091 %
+Notinterested,2,9.091 %
+Pending,2,9.091 %
+Wrongnumber,1,4.545 %

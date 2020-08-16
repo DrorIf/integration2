@@ -1,0 +1,27 @@
+status,amount,rate
+FTD,15,3.846 %
+Appointment,10,2.564 %
+CALLBACK,8,2.051 %
+CallBack,55,14.103 %
+Callagain,1,0.256 %
+Disqualified,22,5.641 %
+DoNotCall,2,0.513 %
+FAILED_DEPOSIT,4,1.026 %
+FollowUp,10,2.564 %
+Highpotential,3,0.769 %
+NEVER_ANSWER,1,0.256 %
+NEW,89,22.821 %
+NO_ANSWER,15,3.846 %
+NO_INTEREST,6,1.538 %
+New,7,1.795 %
+NoAnswer,104,26.667 %
+NoAnswer1,5,1.282 %
+NoLanguage,3,0.769 %
+Noanswer15,9,2.308 %
+Nointerest,5,1.282 %
+NotInterested,5,1.282 %
+Pending,2,0.513 %
+WrongInfo,1,0.256 %
+WrongNumber,5,1.282 %
+noanswer,1,0.256 %
+notinterested,2,0.513 %

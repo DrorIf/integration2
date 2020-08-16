@@ -1,0 +1,5 @@
+status,amount,rate
+FTD,0,0.000 %
+call_back,1,20.000 %
+no_answer,3,60.000 %
+no_money,1,20.000 %

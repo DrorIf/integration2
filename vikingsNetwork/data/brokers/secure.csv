@@ -1,0 +1,11 @@
+status,amount,rate
+FTD,35,4.167 %
+Callback,156,18.571 %
+Cold,52,6.190 %
+Hot,1,0.119 %
+Notanswer,492,58.571 %
+Spamunquali,28,3.333 %
+Switchoffo,28,3.333 %
+Switchoffoutofservicetempunavailable,29,3.452 %
+Warm,15,1.786 %
+new,4,0.476 %

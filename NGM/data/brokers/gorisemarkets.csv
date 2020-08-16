@@ -1,0 +1,7 @@
+status,amount,rate
+FTD,1,1.205 %
+Cancelled,1,1.205 %
+FollowUp,23,27.711 %
+NoAnswer,42,50.602 %
+NotInterested,12,14.458 %
+WrongNumber,4,4.819 %

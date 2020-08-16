@@ -1,0 +1,111 @@
+status,Amount,Rate
+Call back,223,5.520 %
+Language barrier,43,1.064 %
+No answer,312,7.723 %
+Not interested,247,6.114 %
+Wrong number,28,0.693 %
+In the money,41,1.015 %
+Disqualified,28,0.693 %
+Fraud,5,0.124 %
+New,11,0.272 %
+Test,16,0.396 %
+NoAnswer,124,3.069 %
+Notinterested,111,2.748 %
+Junk,6,0.149 %
+Do not call,7,0.173 %
+FollowUp,143,3.540 %
+NoAnswer5,33,0.817 %
+Failed,92,2.277 %
+DoNotCall,20,0.495 %
+Potential,19,0.470 %
+Deposit,14,0.347 %
+FalseNum,9,0.223 %
+WrongNumber,2,0.050 %
+NA,4,0.099 %
+WRONG_INFO,1,0.025 %
+NO_INTEREST,5,0.124 %
+CALLBACK,4,0.099 %
+FailDeposit,10,0.248 %
+NEW,468,11.584 %
+NO_ANSWER,9,0.223 %
+CallBack,13,0.322 %
+NO_MONEY,1,0.025 %
+NotInterested,22,0.545 %
+CONVERTED,2,0.050 %
+CallBackGeneral,4,0.099 %
+Noanswer,13,0.322 %
+Callback,19,0.470 %
+DNC,5,0.124 %
+Languagebarrier,2,0.050 %
+Nointerest,7,0.173 %
+Callagain,10,0.248 %
+Noanswer15,17,0.421 %
+Inthemoney,1,0.025 %
+Wrongnumber,1,0.025 %
+CallBackPersonal,2,0.050 %
+NoLanguage,1,0.025 %
+Completed,1,0.025 %
+NoMoney,1,0.025 %
+UnderAge,1,0.025 %
+Depositdeclined,1,0.025 %
+No answer - 3,4,0.099 %
+TEST,2,0.050 %
+notinterested,3,0.074 %
+deposit,39,0.965 %
+noanswer,17,0.421 %
+POTENTIAL_LOW,2,0.050 %
+NO_ANSWER_4,1,0.025 %
+WRONG_NUMBER,1,0.025 %
+NO_ANSWER_5,1,0.025 %
+VOICEMAIL,1,0.025 %
+POTENTIAL_HIGH,1,0.025 %
+NOANSWER,19,0.470 %
+NOINTEREST,12,0.297 %
+INVALIDCOUNTRY,1,0.025 %
+callback,1,0.025 %
+noAnswer,21,0.520 %
+no answer,377,9.332 %
+new,25,0.619 %
+faulty,46,1.139 %
+call back,342,8.465 %
+in progress,133,3.292 %
+fraud,5,0.124 %
+NEVERANSWER,2,0.050 %
+not interested,290,7.178 %
+followUp,12,0.297 %
+notIntrested,1,0.025 %
+NOANSWER2,1,0.025 %
+expectation,1,0.025 %
+NOANSWER4,1,0.025 %
+no answer 3,48,1.188 %
+no answer 2,46,1.139 %
+Cancelled,12,0.297 %
+No answer 1-5,45,1.114 %
+Not Interested,15,0.371 %
+No Language,9,0.223 %
+No interest,36,0.891 %
+no answer 5,151,3.738 %
+Call again,27,0.668 %
+No answer 5 up,3,0.074 %
+no answer 4,28,0.693 %
+PCA,1,0.025 %
+No Answer,14,0.347 %
+Wrong number or email,5,0.124 %
+Low interest,13,0.322 %
+Wrong Number,5,0.124 %
+Intrested,3,0.074 %
+Deposited !,1,0.025 %
+Do Not Call,6,0.149 %
+Wrong Info,1,0.025 %
+No answer 1-3,24,0.594 %
+no answer 7,3,0.074 %
+Seg,2,0.050 %
+no answer 6,1,0.025 %
+B - No interest,12,0.297 %
+pre deposit,1,0.025 %
+FTD,1,0.025 %
+R - potential Low,3,0.074 %
+No Answer 4,1,0.025 %
+B - Wrong number,1,0.025 %
+-None-,1,0.025 %
+Total,4040,100 %

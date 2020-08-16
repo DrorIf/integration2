@@ -1,0 +1,38 @@
+{
+  "name": "integration-tests",
+  "version": "1.0.0",
+  "description": "testing integration for clients on local",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git": "git add . && git commit -m 'new' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DrorIf/integration-tests.git"
+  },
+  "author": "Dror the King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DrorIf/integration-tests/issues"
+  },
+  "homepage": "https://github.com/DrorIf/integration-tests#readme",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "csv-parser": "^2.3.3",
+    "csv-writer": "^1.6.0",
+    "firebase": "^7.16.1",
+    "firebase-admin": "^9.0.0",
+    "fs": "0.0.1-security",
+    "hapi": "^18.1.0",
+    "http-proxy": "^1.18.1",
+    "https-proxy-agent": "^3.0.1",
+    "libnpm": "^3.0.1",
+    "npm": "^6.14.7",
+    "npm-registry-fetch": "^5.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "smsedge-api-node-js": "^1.1.0",
+    "strip-bom-stream": "^4.0.0"
+  }
+}

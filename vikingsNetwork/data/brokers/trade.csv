@@ -1,0 +1,7 @@
+status,amount,rate
+FTD,0,0.000 %
+Decline,1,12.500 %
+NOTINTERESTED,2,25.000 %
+New,1,12.500 %
+NoAnswer,3,37.500 %
+WrongNumber,1,12.500 %
