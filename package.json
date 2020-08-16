@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git": "git add . && git commit -m 'new' && git push"
+    "git": "git add . && git commit -m 'new' && git push",
+    "stam": "bali"
   },
   "repository": {
     "type": "git",
