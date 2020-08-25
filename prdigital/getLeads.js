@@ -222,7 +222,7 @@ async function saveToCSV(array, path) {
   }
 }
 
-// main();
+main();
 
 
 exports.main = main;

@@ -5,21 +5,26 @@ const path = pathBase + 'data.csv';
 
 const p = console.log;
 
+var request = require("request");
 
-const arr = [
-{
-  a: 1,
-  b: 2
-},
-{
-  a: 'a',
-  b: 'b'
-}
-];
-csvWriter.writeDataToCsv(arr).then(res => {
-  p(res);
-}).catch(err => {
-  p(err);
+var options = {
+  method: 'POST',
+  url: 'https://api.smsedge.com/v1/sms/send-single/',
+  qs: {
+    api_key: 'L_We-xSHb1QMPSZO6t',
+    from: 'what here?',
+    to: '97254-300-5482',
+    text: 'text ex',
+    shorten_url: '1',
+    smart_routing: 1,
+    transactional: '0'
+  }
+};
+
+request(options, function (error, response, body) {
+  if (error) throw new Error(error);
+
+  console.log(JSON.parse(body));
 });
 
 
@@ -37,7 +42,7 @@ csvWriter.writeDataToCsv(arr).then(res => {
 //   reference: 'some_string',
 //   shorten_url: true, // By default false.
 //   transactional: true,
-//   preferred_route_id: '1', // List of routes on getRoutes() function.
+//   preferred_route_id: '171', // List of routes on getRoutes() function.
 //   delay: '10' // Delay by seconds
 // }
 
