@@ -23,8 +23,8 @@ const fireBaseForm = {
 
 async function main() {
     const arr = await csvReader.getArrayFromCsv(path, ',');
-    len = arr.length;
-    for (let i = 4; i < len; i++) {
+    len = 1;//arr.length;
+    for (let i = 0; i < len; i++) {
         let lead = arr[i];
         fireBaseForm["date created"] = new Date(lead['date'].split(' ')[1]).getTime();
         fireBaseForm.name = getFname(lead.name);
