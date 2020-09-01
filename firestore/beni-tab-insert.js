@@ -23,7 +23,7 @@ const fireBaseForm = {
 
 async function main() {
     const arr = await csvReader.getArrayFromCsv(path, ',');
-    len = 1;//arr.length;
+    len = arr.length;
     for (let i = 0; i < len; i++) {
         let lead = arr[i];
         fireBaseForm["date created"] = new Date(lead['date'].split(' ')[1]).getTime();
@@ -33,7 +33,7 @@ async function main() {
         fireBaseForm.phone = lead["phone "];
         fireBaseForm.source = lead["campaign name "];
         fireBaseForm["extra data"] = lead["extra data"];
-
+        p(fireBaseForm);
         try {
             const result = await fireBaseInsert(fireBaseForm);
             p(result);
