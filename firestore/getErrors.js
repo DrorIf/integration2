@@ -9,7 +9,7 @@ const fileName = `Errors-${date}${month.length > 1 ? month : '0' + month}${year}
 const path = pathBase + folderName + '/data/' + fileName;
 const pathd2 = pathBase + folderName + '/data/' + 'last-7-days-errors.csv';
 const admin = require('firebase-admin');
-const serviceAccount = require('/Users/drorifrah/Documents/Projects/serviceAccountKey.json');
+const serviceAccount = require();
 // const serviceAccount = require('./serviceAccountKey.json');
 const p = console.log;
 admin.initializeApp({

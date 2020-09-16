@@ -1,8 +1,7 @@
 const p = console.log;
 
-
-const d = new Date();
-p(d);
-d.setDate(d.getDate()-14);
-p(d);
-
+let date = new Date();
+// date.setHours(date.getHours()-3);
+// output = {date: date.toString()};
+p(date.toString())
+p(date.toLocaleString('en-GB', { timeZone: 'UTC+3' }))
