@@ -34,7 +34,9 @@
     "phone-validator-net": "^2.0.9",
     "request": "^2.88.0",
     "request-promise": "^4.2.5",
+    "rtf-stream-parser": "^3.1.0",
     "smsedge-api-node-js": "^1.1.0",
-    "strip-bom-stream": "^4.0.0"
+    "strip-bom-stream": "^4.0.0",
+    "parse": "^2.4.0"
   }
 }

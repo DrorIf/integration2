@@ -5,9 +5,10 @@ const date = d.getDate();
 const month = (d.getMonth() + 1).toString();
 const year = d.getFullYear();
 const fileName = `FRleads${date}${month.length > 1 ? month : '0' + month}${year}.csv`;
-const path = pathBase + 'data/' + fileName;
+// const path = pathBase + 'data/' + fileName;
+const path = './CSV/saved csvs/' + fileName;
 const admin = require('firebase-admin');
-const serviceAccount = require('./serviceAccountKey.json');
+const serviceAccount = require('/Users/drorifrah/Documents/Projects/serviceAccountKey.json');
 const p = console.log;
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
@@ -18,7 +19,7 @@ db.settings({timestampsInSnapshots: true});
 
 let dataArr = [];
 db.collection("leads")
-    .where("date created", ">=", 1580548474000) // last time was done 01/02/2020T13:00
+    .where("date created", ">=", 1604944567000) // last time was done 01/02/2020T13:00
     // .where("date created", "<=", 1579608038000) // 
     .get()
     .then(res => {
@@ -35,9 +36,11 @@ db.collection("leads")
         }); 
     })
     .then(() => {
-        csvWriter.writeDataToCsv(dataArr, path)
-        .then(writeRes => p(writeRes))
-        .catch(writeError => p(writeError));
+        if (dataArr !== []) {
+            csvWriter.writeDataToCsv(dataArr, path)
+            .then(writeRes => p(writeRes))
+            .catch(writeError => p(writeError));
+        }   
     })
     .catch(error => {
         console.log('error');
@@ -62,8 +65,12 @@ function matchClientForItaly(lead, exclude) {
     return (clientArr.includes(lead['client']) && lead['status'] !== '0' && lead['client'] !== exclude);
 }
 function matchClientForBeny(lead) {
+
     const clientArr = [
        'franceCapital',
+       'Beny-Tab',
+       'All',
+
     ];
     // console.log(lead['status']);
     // console.log(typeof(lead['status']));

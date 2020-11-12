@@ -3,7 +3,8 @@ const folderName = 'prdigital';
 let path = `/Users/drorifrah/Documents/Projects/IntegrationsV2/integration-tests/${folderName}/csvToSend/`;
 const rp = require('request-promise');
 const p = console.log;
-const url = 'https://qmdlwkzfbg.execute-api.eu-west-1.amazonaws.com/default/italyFilter';
+// const url = 'https://qmdlwkzfbg.execute-api.eu-west-1.amazonaws.com/default/italyFilter';
+const url = 'https://egthhvddc4.execute-api.eu-west-1.amazonaws.com/default/frenchFilter';
 const options = {
     method: 'POST',
     uri: url,
@@ -16,8 +17,8 @@ const date = d.getDate();
 const month = (d.getMonth() + 1).toString();
 const year = d.getFullYear();
 // path += `leads${date}${month.length > 1 ? month : '0' + month}${year}.csv`;
-// path += `leads.csv`;
-path += `stefanie2.csv`;
+path += `FRleads.csv`;
+path = '/Users/drorifrah/Documents/Projects/integration-tests-master/prdigital/csvToSend/FRleads.csv';
 p(path);
 async function main() {
     const array = await csvReader.getArrayFromCsv(path, ',');
@@ -25,17 +26,19 @@ async function main() {
     // p(array);
     // let start = array.length - 2, end = array.length - 1;
     // let type = 'firestore';
-    let type = 'facebook-it';
+    let type = 'fr-table';
+    // let type = 'facebook-it';
     // let type = 'facebook';
-    let start = 0, end = array.length;
+    let start = 1, end = array.length;
     for (let i = start; i < end; i++) {
         let element = array[i];
+        // p(Object.keys(element));
         form = buildForm(type, element, 1);
         options.form = form;
         p(form);
         res = await rp(options);
         p(res);
-        await sleep(Math.floor(Math.random() * 350000));
+        // await sleep(Math.floor(Math.random() * 350000));
     }
 }
 
@@ -82,6 +85,16 @@ function buildForm(source, element, counter) {
                 counter: counter
             };
             break;
+        }
+        case 'fr-table' : {
+            return {
+                'name': element['name'],
+                'campaign': element['campaign name '],
+                'banner info': element['Extra data'],
+                'phone':  element['phone '],
+                'extra data': element['Extra data'].split('|')[2],
+                'email': element['mail'],
+            }
         }
     }
 }

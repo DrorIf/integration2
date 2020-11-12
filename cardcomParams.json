@@ -1,0 +1,25 @@
+{
+    "mediaSourceObject" : {
+        "facebook": "CxbvMisDfZ",
+        "google-search": "AVzQ7BvmGQ",
+        "instagram": "fSfUg2uRJ7",
+        "google-gdn": "by8B4fTZOk",
+        "google-organic": "UWKJrGYN3i",
+        "site": "5P7Teo2R2y",
+        "sms": "bFuFco23Z5"
+    },
+
+    "JAP_like-sub_servid_ids" : ["232", "1697", "2195"],
+    "JAP_Url": "https://justanotherpanel.com/api/v2",
+    "JAP_Key": "27198881356163e22db2c72b5dd2a338",
+
+    "CRM_APP_ID" : "aaaaaaac9eb602abd47fd0ec33e88c010ca217c1",
+    "CRM_MASTER_KEY" : "6c5f1b6846585c68fec06dd99e8ad52d",
+    "CRM_BASE_URL" : "https://apps.simbla.com/parse/",
+
+    "saleStatusID_CRM" : "gauKjQDbXI",
+    "saleMediaSource_CRM" : "5P7Teo2R2y",
+    "leadSource_CRM" : "LtrVmM3xv4",
+    "owenrID_CRM" : "igb3timwIu",
+    "accountID_CRM" : "PmtaGgobsG"
+}

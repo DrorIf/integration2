@@ -3,7 +3,6 @@ const p = console.log;
 const csvReader = require('../CSV/readCsvandPassArray');
 const folderName = 'firestore/data';
 const fileName = 'beni-leads.csv';
-''
 let path = `/Users/drorifrah/Documents/Projects/integration-tests-master/${folderName}/csvToSend/${fileName}`;
 
 
